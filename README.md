@@ -1,4 +1,4 @@
-# Python-programming-language-course (from bigginer to professional)
+# Python-programming-language-course (From bigginer To professional)
 
 -----------------------------------------------------------------------------
 ## Teaching Staff:
@@ -12,12 +12,12 @@ This course will introduce you to the wonerful world of Python programming.  We'
 By the end of the course, you will be able to write short Python programs that are able to accomplish real, practical tasks and complex programs as well. This course is the foundation for building expertise in Python programming. As the first course in a specialization, it provides the necessary building blocks for you to succeed at learning to write more complex Python programs. You will also be able to learn skills that mostly use by python such as Artificial Intelligence, data analysis, big data, image processing and many more.
 
 ---------------------------------------------------------------------------
-## Pre-requestite(s):
+## Prerequestite(s):
 Familarity with basic programming and data structure is prefrered!
 
 ## Textbooks & online resources:
-Starting out with python 4th edition by Tony Gaddis.
-Learn python programming Language.
+* Starting out with python 4th edition by Tony Gaddis.
+* Learn python programming Language.
 
 ## References:
 * www.pearsonglobaleditions.com
