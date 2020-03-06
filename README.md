@@ -27,6 +27,25 @@ Familarity with basic programming and data structure is prefrered!
 1. Section one: Intro to python programming.
 2. Section Two: Advanced programming in python.
 3. Section one: Scientific programming in python.
+#### Week one:
+1. Basic syntax
+2. Variables Types, Basic Operations
+4. Decision Making
+5. Loops, numbers, strings, Date & Time
+#### Week two
+6. Lists, Tuples, Dictionary.
+7. Functions, Modules.
+8. Files I/O, Exceptions.
+
+#### Week three:
+Classes & objects
+Database Access
+Sending Email
+Reg Expressions
+GUI Programming
+
+#### Week Four:
+
 
 
 ## Meeting times:
