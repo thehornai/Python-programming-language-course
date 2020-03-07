@@ -30,13 +30,13 @@ Familarity with basic programming and data structure is prefrered!
 3. Section one: Scientific programming in python.
 #### Week one:
 1. Basic syntax
-2. Variables Types, Basic Operations
+2. Variables Types & Basic Operations
 4. Decision Making
-5. Loops, numbers, strings, Date & Time
+5.  Data types & Loops
 #### Week two
-6. Lists, Tuples, Dictionary.
-7. Functions, Modules.
-8. Files I/O, Exceptions.
+6. Lists & Tuples & Dictionary.
+7. Functions & Modules.
+8. Files I/O & Exceptions.
 
 #### Week three:
 1. Classes & objects
