@@ -38,11 +38,11 @@ Familarity with basic programming and data structure is prefrered!
 8. Files I/O, Exceptions.
 
 #### Week three:
-Classes & objects
-Database Access
-Sending Email
-Reg Expressions
-GUI Programming
+1. Classes & objects
+2. Database Access
+3. Sending Email
+4. Reg Expressions
+5. GUI Programming
 
 #### Week Four:
 
