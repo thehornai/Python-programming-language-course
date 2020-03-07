@@ -18,6 +18,7 @@ Familarity with basic programming and data structure is prefrered!
 ## Textbooks & online resources:
 * Starting out with python 4th edition by Tony Gaddis.
 * Learn python programming Language.
+* A Primer on Scientific Programming with Python
 
 ## References:
 * www.pearsonglobaleditions.com
@@ -45,7 +46,12 @@ Familarity with basic programming and data structure is prefrered!
 5. GUI Programming
 
 #### Week Four:
-
+1. Technical Topics
+2. Computing with formulas
+3. Array Computing and Curve ploting
+4. Analysing DNA
+5. Randome numbers & Computing probabilities
+6. Sequences and difference equations
 
 
 ## Meeting times:
