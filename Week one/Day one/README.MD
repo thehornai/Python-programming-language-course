@@ -48,3 +48,16 @@
  - Solid state drive: faster than disk drive, no moving parts, stores data in solid state memory
  - Flash memory: portable, no physical disk
  - Optical devices: data encoded optically
+
+### Input Devices
+* Input: data the computer collects from people and other devices
+* Input device: component that collects the data
+* Examples: keyboard, mouse, touchscreen, scanner, camera
+* Disk drives can be considered input devices because they load programs into the main memory
+
+
+### Output Devices
+* Output: data produced by the computer for other people or devices can be text, image, audio, or bit stream
+* Output device: formats and presents output
+* Examples: video display, printer
+* Disk drives and USB drives can be considered output devices because data is sent to them to be saved

@@ -59,6 +59,11 @@ The program will be 2hrs/day, afternoon and 4 days each week.
 
 ## Gradding Policy:
 There will be one assignment and one project in each week and one final exam.
+* Assignments: 20%
+* Projects: 30%
+* Exams: 60%
+
+## Course Fee ( 15 USD).
 
 
 
