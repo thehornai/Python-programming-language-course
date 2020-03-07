@@ -63,7 +63,7 @@ There will be one assignment and one project in each week and one final exam.
 * Projects: 30%
 * Exams: 60%
 
-## Course Fee ( 15 USD).
-
+## Course Fee:
+* The trainings will be provide by industry experts and course fee with the resources are ( 15 USD).
 
 
