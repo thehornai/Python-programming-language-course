@@ -166,7 +166,7 @@ The following list shows the Python keywords. These are reserved words and you c
 
 | and | exec | not |
 |as | finally | or |
-|assert	for	pass
+|assert | for | pass |
 |break | from | print|
 |class | global | raise |
 |continue | if | return |
