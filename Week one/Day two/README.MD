@@ -107,33 +107,17 @@ make
 sudo make install
 ```
 
-Mac OS
-Download Mac OS installers from this URL − https://www.python.org/downloads/mac-osx/
-
-Mac OS X 64-bit/32-bit installer − python-3.5.1-macosx10.6.pkg
-Mac OS X 32-bit i386/PPC installer − python-3.5.1-macosx10.5.pkg
-Double click this package file and follow the wizard instructions to install.
 
 The most up-to-date and current source code, binaries, documentation, news, etc., is available on the official website of Python −
 
-Python Official Website − https://www.python.org/
+**Python Official Website** − https://www.python.org/
 
 You can download Python documentation from the following site. The documentation is available in HTML, PDF and PostScript formats.
 
-Python Documentation Website − www.python.org/doc/
+**Python Documentation Website** − www.python.org/doc/
 
-Setting up PATH
-Programs and other executable files can be in many directories. Hence, the operating systems provide a search path that lists the directories that it searches for executables.
 
-The important features are −
-
-The path is stored in an environment variable, which is a named string maintained by the operating system. This variable contains information available to the command shell and other programs.
-
-The path variable is named as PATH in Unix or Path in Windows (Unix is case-sensitive; Windows is not).
-
-In Mac OS, the installer handles the path details. To invoke the Python interpreter from any particular directory, you must add the Python directory to your path.
-
-Setting Path at Unix/Linux
+#### Setting Path at Unix/Linux
 To add the Python directory to the path for a particular session in Unix −
 
 In the csh shell − type setenv PATH "$PATH:/usr/local/bin/python3" and press Enter.
@@ -144,44 +128,37 @@ In the sh or ksh shell − type PATH = "$PATH:/usr/local/bin/python3" and press 
 
 Note − /usr/local/bin/python3 is the path of the Python directory.
 
-Setting Path at Windows
+#### Setting Path at Windows
 To add the Python directory to the path for a particular session in Windows −
 
 At the command prompt − type path %path%;C:\Python and press Enter.
 
 Note − C:\Python is the path of the Python directory
 
-Python Environment Variables
+#### Python Environment Variables
 Here are important environment variables, which are recognized by Python −
 
-Sr.No.	Variable & Description
-1	
-PYTHONPATH
+| Sr.No. | Variable & Description |
+|--------|------------------------|
+| 1 | **PYTHONPATH** 
+It has a role similar to PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer.|
 
-It has a role similar to PATH. This variable tells the Python interpreter where to locate the module files imported into a program. It should include the Python source library directory and the directories containing Python source code. PYTHONPATH is sometimes preset by the Python installer.
+| 2 | **PYTHONSTARTUP**
+It contains the path of an initialization file containing Python source code. It is executed every time you start the interpreter. It is named as .pythonrc.py in Unix and it contains commands that load utilities or modify PYTHONPATH.|
 
-2	
-PYTHONSTARTUP
+| 3 | **PYTHONCASEOK** 
+It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.|
 
-It contains the path of an initialization file containing Python source code. It is executed every time you start the interpreter. It is named as .pythonrc.py in Unix and it contains commands that load utilities or modify PYTHONPATH.
+| 4 | **PYTHONHOME**
+It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.|
 
-3	
-PYTHONCASEOK
-
-It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.
-
-4	
-PYTHONHOME
-
-It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.
-
-Running Python
+#### Running Python
 There are three different ways to start Python −
 
 Interactive Interpreter
 You can start Python from Unix, DOS, or any other system that provides you a command-line interpreter or shell window.
 
-Enter python the command line.
+Enter **python** the command line.
 
 Start coding right away in the interactive interpreter.
 
@@ -252,3 +229,4 @@ If you are not able to set up the environment properly, then you can take the he
 Note − All the examples given in subsequent chapters are executed with Python 3.4.1 version available on Windows 7 and Ubuntu Linux.
 
 We have already set up Python Programming environment online, so that you can execute all the available examples online while you are learning theory. Feel free to modify any example and execute it online.
+
