@@ -145,81 +145,185 @@ Here are important environment variables, which are recognized by Python −
 | 3 | **PYTHONCASEOK** It is used in Windows to instruct Python to find the first case-insensitive match in an import statement. Set this variable to any value to activate it.|
 | 4 | **PYTHONHOME** It is an alternative module search path. It is usually embedded in the PYTHONSTARTUP or PYTHONPATH directories to make switching module libraries easy.|
 
-#### Running Python
-There are three different ways to start Python −
 
-Interactive Interpreter
-You can start Python from Unix, DOS, or any other system that provides you a command-line interpreter or shell window.
+### Python Identifiers
+A Python identifier is a name used to identify a variable, function, class, module or other object. An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters, underscores and digits (0 to 9).
 
-Enter **python** the command line.
+Python does not allow punctuation characters such as @, $, and % within identifiers. Python is a case sensitive programming language. Thus, **Manpower** and **manpower** are two different identifiers in Python.
 
-Start coding right away in the interactive interpreter.
+Here are naming conventions for Python identifiers −
 
-$python             # Unix/Linux
-or
-python%             # Unix/Linux
-or
-C:>python           # Windows/DOS
-Here is the list of all the available command line options −
+Class names start with an uppercase letter. All other identifiers start with a lowercase letter.
 
-Sr.No.	Option & Description
-1	
--d
+Starting an identifier with a single leading underscore indicates that the identifier is private.
 
-provide debug output
+Starting an identifier with two leading underscores indicates a strong private identifier.
 
-2	
--O
+If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
 
-generate optimized bytecode (resulting in .pyo files)
+### Reserved Words
+The following list shows the Python keywords. These are reserved words and you cannot use them as constants or variables or any other identifier names. All the Python keywords contain lowercase letters only.
 
-3	
--S
+| and | exec | not |
+|as | finally | or |
+|assert	for	pass
+|break | from | print|
+|class | global | raise |
+|continue | if | return |
+|def | import | try|
+|del | in | while |
+|elif | is | with|
+|else | lambda | yield|
+|except	|
 
-do not run import site to look for Python paths on startup
+### Lines and Indentation
+Python does not use braces({}) to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.
 
-4	
--v
+The number of spaces in the indentation is variable, but all statements within the block must be indented the same amount. For example −
 
-verbose output (detailed trace on import statements)
+```
+if True:
+   print ("True")
 
-5	
--X
+else:
+   print ("False")
+```
+However, the following block generates an error −
 
-disable class-based built-in exceptions (just use strings); obsolete starting with version 1.6
+```
+if True:
+   print ("Answer")
+   print ("True")
 
-6	
--c cmd
+else:
+   print "(Answer")
+   print ("False")
+```
+Thus, in Python all the continuous lines indented with the same number of spaces would form a block. The following example has various statement blocks −
 
-run Python script sent in as cmd string
+Note − Do not try to understand the logic at this point of time. Just make sure you understood the various blocks even if they are without braces.
 
-7	
-file
+#!/usr/bin/python3
 
-run Python script from given file
+import sys
 
-Script from the Command-line
-A Python script can be executed at the command line by invoking the interpreter on your application, as shown in the following example.
+try:
+   # open file stream
+   file = open(file_name, "w")
 
-$python  script.py          # Unix/Linux
-or
-python% script.py           # Unix/Linux
-or 
-C:>python script.py         # Windows/DOS
-Note − Be sure the file permission mode allows execution.
+except IOError:
+   print ("There was an error writing to", file_name)
+   sys.exit()
+print ("Enter '", file_finish,)
+print "' When finished"
 
-Integrated Development Environment
-You can run Python from a Graphical User Interface (GUI) environment as well, if you have a GUI application on your system that supports Python.
+while file_text != file_finish:
+   file_text = raw_input("Enter text: ")
+   
+   if file_text == file_finish:
+      # close the file
+	  file.close
+      break
+   file.write(file_text)
+   file.write("\n")
+file.close()
+file_name = input("Enter filename: ")
 
-Unix − IDLE is the very first Unix IDE for Python.
+if len(file_name) == 0:
+   print ("Next time please enter something")
+   sys.exit()
 
-Windows − PythonWin is the first Windows interface for Python and is an IDE with a GUI.
+try:
+   file = open(file_name, "r")
 
-Macintosh − The Macintosh version of Python along with the IDLE IDE is available from the main website, downloadable as either MacBinary or BinHex'd files.
+except IOError:
+   print ("There was an error reading file")
+   sys.exit()
+file_text = file.read()
+file.close()
+print (file_text)
+Multi-Line Statements
+Statements in Python typically end with a new line. Python, however, allows the use of the line continuation character (\) to denote that the line should continue. For example −
 
-If you are not able to set up the environment properly, then you can take the help of your system admin. Make sure the Python environment is properly set up and working perfectly fine.
+total = item_one + \
+   item_two + \
+   item_three
+The statements contained within the [], {}, or () brackets do not need to use the line continuation character. For example −
 
-Note − All the examples given in subsequent chapters are executed with Python 3.4.1 version available on Windows 7 and Ubuntu Linux.
+days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
+Quotation in Python
+Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals, as long as the same type of quote starts and ends the string.
 
-We have already set up Python Programming environment online, so that you can execute all the available examples online while you are learning theory. Feel free to modify any example and execute it online.
+The triple quotes are used to span the string across multiple lines. For example, all the following are legal −
 
+word = 'word'
+sentence = "This is a sentence."
+paragraph = """This is a paragraph. It is
+made up of multiple lines and sentences."""
+Comments in Python
+A hash sign (#) that is not inside a string literal is the beginning of a comment. All characters after the #, up to the end of the physical line, are part of the comment and the Python interpreter ignores them.
+
+Live Demo
+#!/usr/bin/python3
+
+# First comment
+print ("Hello, Python!") # second comment
+This produces the following result −
+
+Hello, Python!
+You can type a comment on the same line after a statement or expression −
+
+name = "Madisetti" # This is again comment
+You can comment multiple lines as follows −
+
+# This is a comment.
+# This is a comment, too.
+# This is a comment, too.
+# I said that already.
+Following triple-quoted string is also ignored by Python interpreter and can be used as a multiline comments:
+
+'''
+This is a multiline
+comment.
+'''
+Using Blank Lines
+A line containing only whitespace, possibly with a comment, is known as a blank line and Python totally ignores it.
+
+In an interactive interpreter session, you must enter an empty physical line to terminate a multiline statement.
+
+Waiting for the User
+The following line of the program displays the prompt and, the statement saying “Press the enter key to exit”, and then waits for the user to take action −
+
+#!/usr/bin/python3
+
+input("\n\nPress the enter key to exit.")
+Here, "\n\n" is used to create two new lines before displaying the actual line. Once the user presses the key, the program ends. This is a nice trick to keep a console window open until the user is done with an application.
+
+Multiple Statements on a Single Line
+The semicolon ( ; ) allows multiple statements on a single line given that no statement starts a new code block. Here is a sample snip using the semicolon −
+
+import sys; x = 'foo'; sys.stdout.write(x + '\n')
+Multiple Statement Groups as Suites
+Groups of individual statements, which make a single code block are called suites in Python. Compound or complex statements, such as if, while, def, and class require a header line and a suite.
+
+Header lines begin the statement (with the keyword) and terminate with a colon ( : ) and are followed by one or more lines which make up the suite. For example −
+
+if expression : 
+   suite
+elif expression : 
+   suite 
+else : 
+   suite
+Command Line Arguments
+Many programs can be run to provide you with some basic information about how they should be run. Python enables you to do this with -h −
+
+$ python -h
+usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Options and arguments (and corresponding environment variables):
+-c cmd : program passed in as string (terminates option list)
+-d     : debug output from parser (also PYTHONDEBUG=x)
+-E     : ignore environment variables (such as PYTHONPATH)
+-h     : print this help message and exit
+
+[ etc. ]
+You can also program your script in such a way that it should accept various options. Command Line Arguments is an advanced topic. Let us understand it.
