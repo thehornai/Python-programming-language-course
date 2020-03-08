@@ -1,32 +1,45 @@
-## Overview
+##Python3 Tutorial
 
-Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently whereas the other languages use punctuations. It has fewer syntactical constructions than other languages.
+Python is a general-purpose interpreted, interactive, object-oriented, and high-level programming language. It was created by Guido van Rossum during 1985- 1990. Like Perl, Python source code is also available under the GNU General Public License (GPL). Python is named after a TV Show called ëMonty Pythonís Flying Circusí and not after Python-the snake.
 
-Python is Interpreted − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
+Python 3.0 was released in 2008. Although this version is supposed to be backward incompatibles, later on many of its important features have been backported to be compatible with version 2.7.This tutorial gives enough understanding on Python 3 version programming language. Please refer to this link for our Python 2 tutorial.
 
-Python is Interactive − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.
+###Why to Learn Python 3?
+Python is a high-level, interpreted, interactive and object-oriented scripting language. Python is designed to be highly readable. It uses English keywords frequently where as other languages use punctuation, and it has fewer syntactical constructions than other languages.
 
-Python is Object-Oriented − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
+Python is a MUST for students and working professionals to become a great Software Engineer specially when they are working in Web Development Domain. I will list down some of the key advantages of learning Python:
 
-Python is a Beginner's Language − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
+* __Python is Interpreted__ − Python is processed at runtime by the interpreter. You do not need to compile your program before executing it. This is similar to PERL and PHP.
 
-History of Python
-Python was developed by Guido van Rossum in the late eighties and early nineties at the National Research Institute for Mathematics and Computer Science in the Netherlands.
+* __Python is Interactive__ − You can actually sit at a Python prompt and interact with the interpreter directly to write your programs.
 
-Python is derived from many other languages, including ABC, Modula-3, C, C++, Algol-68, SmallTalk, and Unix shell and other scripting languages.
+* __Python is Object-Oriented__ − Python supports Object-Oriented style or technique of programming that encapsulates code within objects.
 
-Python is copyrighted. Like Perl, Python source code is now available under the GNU General Public License (GPL).
+* __Python is a Beginner's Language__ − Python is a great language for the beginner-level programmers and supports the development of a wide range of applications from simple text processing to WWW browsers to games.
 
-Python is now maintained by a core development team at the institute, although Guido van Rossum still holds a vital role in directing its progress.
+### Characteristics of Python
+Following are important characteristics of python −
 
-Python 1.0 was released in November 1994. In 2000, Python 2.0 was released. Python 2.7.11 is the latest edition of Python 2.
+- It supports functional and structured programming methods as well as OOP.
 
-Meanwhile, Python 3.0 was released in 2008. Python 3 is not backward compatible with Python 2. The emphasis in Python 3 had been on the removal of duplicate programming constructs and modules so that "There should be one -- and preferably only one -- obvious way to do it." Python 3.5.1 is the latest version of Python 3.
+- It can be used as a scripting language or can be compiled to byte-code for building large applications.
 
-Python Features
-Python's features include −
+- It provides very high-level dynamic data types and supports dynamic type checking.
 
-Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows a student to pick up the language quickly.
+- It supports automatic garbage collection.
+
+- It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+
+### Hello World using Python.
+Just to give you a little excitement about Python, I'm going to give you a small conventional Python Hello World program, You can try it using Demo link.
+
+'''
+print "Hello, Python!"
+'''
+### Applications of Python
+As mentioned before, Python is one of the most widely used language over the web. I'm going to list few of them here:
+
+Easy-to-learn − Python has few keywords, simple structure, and a clearly defined syntax. This allows the student to pick up the language quickly.
 
 Easy-to-read − Python code is more clearly defined and visible to the eyes.
 
@@ -46,14 +59,8 @@ GUI Programming − Python supports GUI applications that can be created and por
 
 Scalable − Python provides a better structure and support for large programs than shell scripting.
 
-Apart from the above-mentioned features, Python has a big list of good features. A, few are listed below −
+Audience
+This tutorial is designed for software programmers who want to upgrade their Python skills to Python 3. This tutorial can also be used to learn Python programming language from scratch.
 
-It supports functional and structured programming methods as well as OOP.
-
-It can be used as a scripting language or can be compiled to byte-code for building large applications.
-
-It provides very high-level dynamic data types and supports dynamic type checking.
-
-It supports automatic garbage collection.
-
-It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java.
+Prerequisites
+You should have a basic understanding of Computer Programming terminologies. A basic understanding of any of the programming languages is a plus.
