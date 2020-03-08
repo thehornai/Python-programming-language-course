@@ -95,8 +95,9 @@ $sudo apt-get install python3-minimal
 ```
 Installation from source
 
-Download Gzipped source tarball from Python's download URL − https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz
+Download Gzipped source tarball from Python's download URL - https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz
 
+```
 Extract the tarball
 tar xvfz Python-3.5.1.tgz
 Configure and Install:
@@ -104,6 +105,8 @@ cd Python-3.5.1
 ./configure --prefix = /opt/python3.5.1
 make  
 sudo make install
+```
+
 Mac OS
 Download Mac OS installers from this URL − https://www.python.org/downloads/mac-osx/
 
