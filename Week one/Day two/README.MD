@@ -67,31 +67,32 @@ You should have a basic understanding of Computer Programming terminologies. A b
 
 
 
-Python 3 is available for Windows, Mac OS and most of the flavors of Linux operating system.
+Python is available for Windows, Mac OS and most of the flavors of Linux operating system.
 
-Local Environment Setup
+### Local Environment Setup
 Open a terminal window and type "python" to find out if it is already installed and which version is installed.
 
-Getting Python
-Windows platform
+### Getting Python
+#### Windows platform
 Binaries of latest version of Python 3 (Python 3.5.1) are available on this download page
 
 The following different installation options are available.
 
-Windows x86-64 embeddable zip file
-Windows x86-64 executable installer
-Windows x86-64 web-based installer
-Windows x86 embeddable zip file
-Windows x86 executable installer
-Windows x86 web-based installer
-Note − In order to install Python 3.5.1, minimum OS requirements are Windows 7 with SP1. For versions 3.0 to 3.4.x Windows XP is acceptable.
+ * Windows x86-64 embeddable zip file
+ * Windows x86-64 executable installer
+ * Windows x86-64 web-based installer
+ * Windows x86 embeddable zip file
+ * Windows x86 executable installer
+ * Windows x86 web-based installer
+**Note** − In order to install Python 3.5.1, minimum OS requirements are Windows 7 with SP1. For versions 3.0 to 3.4.x Windows XP is acceptable.
 
-Linux platform
+#### Linux platform
 Different flavors of Linux use different package managers for installation of new packages.
 
-On Ubuntu Linux, Python 3 is installed using the following command from the terminal.
-
+On Ubuntu Linux, Python is installed using the following command from the terminal.
+```
 $sudo apt-get install python3-minimal
+```
 Installation from source
 
 Download Gzipped source tarball from Python's download URL − https://www.python.org/ftp/python/3.5.1/Python-3.5.1.tgz
