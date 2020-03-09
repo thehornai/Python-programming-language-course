@@ -164,23 +164,9 @@ If the identifier also ends with two trailing underscores, the identifier is a l
 ### Reserved Words (Key words)
 The following list shows the Python keywords. These are reserved words and you cannot use them as constants or variables or any other identifier names. All the Python keywords contain lowercase letters only.
 
-
-|      |         |      |
-|------|---------|------|
-| and  | exec    | not  |
-| as   | finally | or   |
-
-|assert | for | pass |
-|break | from | print|
-
-
-|class | global | raise |
-|continue | if | return |
-|def | import | try|
-|del | in | while |
-|elif | is | with|
-|else | lambda | yield|
-|except	|
+```
+and, exec, not, as, finally, or, assert, for, pass, break, from, print, class, global, raise, continue, if, return, def, import, try, del, in, while, elif, is, with, else, lambda, yield, except
+```
 
 ### Lines and Indentation
 Python does not use braces({}) to indicate blocks of code for class and function definitions or flow control. Blocks of code are denoted by line indentation, which is rigidly enforced.
