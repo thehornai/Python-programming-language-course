@@ -84,3 +84,19 @@ Python supports three different numerical types −
 - complex (complex numbers)
 
 All integers in Python3 are represented as long integers. Hence, there is no separate number type as long.
+
+##### Examples
+Here are some examples of numbers −
+
+|int | float | complex |
+|----|-------|---------|
+| 10 | 0.0   |  3.14j  |
+| 100 |15.20 | 45.j |
+
+
+-786	-21.9	9.322e-36j
+080	32.3+e18	.876j
+-0490	-90.	-.6545+0J
+-0x260	-32.54e100	3e+26J
+0x69	70.2-E12	4.53e-7j
+A complex number consists of an ordered pair of real floating-point numbers denoted by x + yj, where x and y are real numbers and j is the imaginary unit.
