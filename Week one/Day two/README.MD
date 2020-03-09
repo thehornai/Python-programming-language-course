@@ -164,6 +164,8 @@ If the identifier also ends with two trailing underscores, the identifier is a l
 ### Reserved Words (Key words)
 The following list shows the Python keywords. These are reserved words and you cannot use them as constants or variables or any other identifier names. All the Python keywords contain lowercase letters only.
 
+
+|      |         |      |
 |------|---------|------|
 | and  | exec    | not  |
 | as   | finally | or   |
