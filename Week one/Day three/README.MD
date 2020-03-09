@@ -281,6 +281,7 @@ Assume variable a holds the value 10 and variable b holds the value 21, then −
 
 ##### Comparison (Relational) Operators
 | symbol | Description |
+|--------|-------------|
 | ==	 | If the values of two operands are equal, then the condition becomes true. |
 | !=	 | If values of two operands are not equal, then condition becomes true. |
 | >	 | If the value of left operand is greater than the value of right operand, then condition becomes true. |
