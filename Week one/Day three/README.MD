@@ -307,9 +307,23 @@ and Logical AND
 or Logical OR 
 not Logical NOT
 ```
-##### Bitwise Operators
+#### **Bitwise Operators**
+
 ##### Membership Operators
+Python’s membership operators test for membership in a sequence, such as strings, lists, or tuples. There are two membership operators as explained below −
+
+| Symbol | Description | Example |
+|--------|-------------|---------|
+|in | Evaluates to true if it finds a variable in the specified sequence and false otherwise. |	x in y, here in results in a 1 if x is a member of sequence y. |
+| not in | Evaluates to true if it does not finds a variable in the specified sequence and false otherwise. | x not in y, here not in results in a 1 if x is not a member of sequence y. |
+
 ##### Identity Operators
+Identity operators compare the memory locations of two objects. There are two Identity operators as explained below −
+
+| Symbol | Desc.. | Example |
+|--------|--------|---------|
+|is 	 | Evaluates to true if the variables on either side of the operator point to the same object and false otherwise. | x is y, here is results in 1 if id(x) equals id(y). |
+|is not  | Evaluates to false if the variables on either side of the operator point to the same object and true otherwise. | x is not y, here is not results in 1 if id(x) is not equal to id(y). |
 
 
 
