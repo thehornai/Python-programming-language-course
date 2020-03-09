@@ -161,13 +161,15 @@ Starting an identifier with two leading underscores indicates a strong private i
 
 If the identifier also ends with two trailing underscores, the identifier is a language-defined special name.
 
-### Reserved Words
+### Reserved Words (Key words)
 The following list shows the Python keywords. These are reserved words and you cannot use them as constants or variables or any other identifier names. All the Python keywords contain lowercase letters only.
 
 | and | exec | not |
 |as | finally | or |
 |assert | for | pass |
 |break | from | print|
+
+
 |class | global | raise |
 |continue | if | return |
 |def | import | try|
@@ -199,131 +201,9 @@ else:
    print "(Answer")
    print ("False")
 ```
-Thus, in Python all the continuous lines indented with the same number of spaces would form a block. The following example has various statement blocks −
 
-Note − Do not try to understand the logic at this point of time. Just make sure you understood the various blocks even if they are without braces.
 
-#!/usr/bin/python3
 
-import sys
 
-try:
-   # open file stream
-   file = open(file_name, "w")
 
-except IOError:
-   print ("There was an error writing to", file_name)
-   sys.exit()
-print ("Enter '", file_finish,)
-print "' When finished"
 
-while file_text != file_finish:
-   file_text = raw_input("Enter text: ")
-   
-   if file_text == file_finish:
-      # close the file
-	  file.close
-      break
-   file.write(file_text)
-   file.write("\n")
-file.close()
-file_name = input("Enter filename: ")
-
-if len(file_name) == 0:
-   print ("Next time please enter something")
-   sys.exit()
-
-try:
-   file = open(file_name, "r")
-
-except IOError:
-   print ("There was an error reading file")
-   sys.exit()
-file_text = file.read()
-file.close()
-print (file_text)
-Multi-Line Statements
-Statements in Python typically end with a new line. Python, however, allows the use of the line continuation character (\) to denote that the line should continue. For example −
-
-total = item_one + \
-   item_two + \
-   item_three
-The statements contained within the [], {}, or () brackets do not need to use the line continuation character. For example −
-
-days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday']
-Quotation in Python
-Python accepts single ('), double (") and triple (''' or """) quotes to denote string literals, as long as the same type of quote starts and ends the string.
-
-The triple quotes are used to span the string across multiple lines. For example, all the following are legal −
-
-word = 'word'
-sentence = "This is a sentence."
-paragraph = """This is a paragraph. It is
-made up of multiple lines and sentences."""
-Comments in Python
-A hash sign (#) that is not inside a string literal is the beginning of a comment. All characters after the #, up to the end of the physical line, are part of the comment and the Python interpreter ignores them.
-
-Live Demo
-#!/usr/bin/python3
-
-# First comment
-print ("Hello, Python!") # second comment
-This produces the following result −
-
-Hello, Python!
-You can type a comment on the same line after a statement or expression −
-
-name = "Madisetti" # This is again comment
-You can comment multiple lines as follows −
-
-# This is a comment.
-# This is a comment, too.
-# This is a comment, too.
-# I said that already.
-Following triple-quoted string is also ignored by Python interpreter and can be used as a multiline comments:
-
-'''
-This is a multiline
-comment.
-'''
-Using Blank Lines
-A line containing only whitespace, possibly with a comment, is known as a blank line and Python totally ignores it.
-
-In an interactive interpreter session, you must enter an empty physical line to terminate a multiline statement.
-
-Waiting for the User
-The following line of the program displays the prompt and, the statement saying “Press the enter key to exit”, and then waits for the user to take action −
-
-#!/usr/bin/python3
-
-input("\n\nPress the enter key to exit.")
-Here, "\n\n" is used to create two new lines before displaying the actual line. Once the user presses the key, the program ends. This is a nice trick to keep a console window open until the user is done with an application.
-
-Multiple Statements on a Single Line
-The semicolon ( ; ) allows multiple statements on a single line given that no statement starts a new code block. Here is a sample snip using the semicolon −
-
-import sys; x = 'foo'; sys.stdout.write(x + '\n')
-Multiple Statement Groups as Suites
-Groups of individual statements, which make a single code block are called suites in Python. Compound or complex statements, such as if, while, def, and class require a header line and a suite.
-
-Header lines begin the statement (with the keyword) and terminate with a colon ( : ) and are followed by one or more lines which make up the suite. For example −
-
-if expression : 
-   suite
-elif expression : 
-   suite 
-else : 
-   suite
-Command Line Arguments
-Many programs can be run to provide you with some basic information about how they should be run. Python enables you to do this with -h −
-
-$ python -h
-usage: python [option] ... [-c cmd | -m mod | file | -] [arg] ...
-Options and arguments (and corresponding environment variables):
--c cmd : program passed in as string (terminates option list)
--d     : debug output from parser (also PYTHONDEBUG=x)
--E     : ignore environment variables (such as PYTHONPATH)
--h     : print this help message and exit
-
-[ etc. ]
-You can also program your script in such a way that it should accept various options. Command Line Arguments is an advanced topic. Let us understand it.
