@@ -317,9 +317,10 @@ Here, "\n\n" is used to create two new lines before displaying the actual line. 
 
 #### Multiple Statements on a Single Line
 The semicolon ( ; ) allows multiple statements on a single line given that no statement starts a new code block. Here is a sample snip using the semicolon −
-
-import sys; x = 'foo'; sys.stdout.write(x + '\n')
-
+```
+import sys; x = 'foo'; 
+sys.stdout.write(x + '\n')
+```
 #### Multiple Statement Groups as Suites
 Groups of individual statements, which make a single code block are called suites in Python. Compound or complex statements, such as if, while, def, and class require a header line and a suite.
 
