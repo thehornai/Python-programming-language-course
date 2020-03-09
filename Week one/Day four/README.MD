@@ -1,4 +1,4 @@
-##Decision-making
+## Decision-making
 
 Decision-making is the anticipation of conditions occurring during the execution of a program and specified actions taken according to the conditions.
 
