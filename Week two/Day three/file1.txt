@@ -1,0 +1,6 @@
+In general, there are two types of files: text and binary. A text file contains data that has been
+encoded as text, using a scheme such as ASCII or Unicode. Even if the file contains numbers,
+those numbers are stored in the file as a series of characters. As a result, the file may be
+opened and viewed in a text editor such as Notepad. A binary file contains data that has not
+been converted to text. The data that is stored in a binary file is intended only for a program
+to read. As a consequence, you cannot view the contents of a binary file with a text editor.
